@@ -6,9 +6,13 @@
 # final = total * 0.8
 # print("Final:", final)
 # vagses
+# a = 10
+# b = 3
+# total = a //b
+# print("Total:", total)
 a = 10
 b = 3
-total = a //b
+total = a % b
 print("Total:", total)
 
 
