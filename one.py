@@ -41,11 +41,27 @@
 #     print("x is greater than y")
 # else:    print("y is greater than x")
 
-a = 100
-b = 200
-if a>b:
-    print("a is boro b")
-else:    print("b is boro a")
+# a = 100
+# b = 200
+# if a>b:
+#     print("a is boro b")
+# else:    print("b is boro a")
+
+# add some practice
+a = 5
+b = 10
+c = 100
+if a > b and a > c:
+    print("a is the greatest")
+elif b > a and b > c:
+    print("b is the greatest")
+else:    print("c is the greatest")
+# or function
+x = 10
+y = 20
+if x > y or x == y:
+    print("x is greater than or equal to y")
+else:    print("y is greater than x")
 
 
 
