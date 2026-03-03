@@ -14,6 +14,11 @@ angle = 0
 while angle < 360:
     print(angle)
     angle += 90
-    
+
+angle = 0
+while angle < 360:
+    angle = angle + 90
+    print(angle)
+
 
 
